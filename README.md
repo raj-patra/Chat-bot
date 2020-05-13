@@ -8,9 +8,9 @@
 
 **chat_room.py** is a GUI made with Tkinter for python, an easy to use interface which gives a chat room experience.
 	
-#### The ".brn" file , also known as the brain file of the chatbot is also included. Feel free to delete the brain file and retrain it by adding even more aiml files in the respective folder. 
+> The ".brn" file , also known as the brain file of the chatbot is also included. Feel free to delete the brain file and retrain it by adding even more aiml files in the respective folder. 
 
 
-Pre-requisite packages-
+> Pre-requisite packages-
 	aiml,
 	tkinter
