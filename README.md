@@ -12,5 +12,5 @@ The ".brn" file , also known as the brain file of the chatbot is also included. 
 
 
 Pre-requisite packages-
-	aiml
+	aiml,
 	tkinter
