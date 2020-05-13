@@ -1,6 +1,6 @@
 # Nicole - The Chat bot
 
-## Nicole is an intelligent chatbot made out of AIML (Artificial Intelligence Markup Language) files.
+## Nicole is an intelligent chatbot made out of AIML files.
 
 ### There are two versions in the Repository-
 
@@ -14,3 +14,5 @@
 > Pre-requisite packages-
 	aiml,
 	tkinter
+	
+> AIML - Artificial Intelligence Markup Language
