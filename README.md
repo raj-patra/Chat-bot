@@ -12,7 +12,8 @@
 
 
 > Pre-requisite packages-
-	aiml,
-	tkinter
+>> aiml
+
+>> tkinter
 	
 > AIML - Artificial Intelligence Markup Language
