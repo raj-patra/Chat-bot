@@ -16,5 +16,12 @@
 aiml
 tkinter
 ```
-	
-> AIML - Artificial Intelligence Markup Language
+
+#### Usage
+```
+# To run the CLI based chat-bot
+python chat_bot_cmd.py
+
+# To run the tkinter application
+python chat_room.py
+```
