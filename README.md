@@ -13,9 +13,12 @@
 
 #### Usage
 ```
-# To run the CLI based chat-bot
+# Install the necessary packages
+pip install -r requirements.txt
+
+# Runs the CLI based chat-bot
 python chat_bot_cmd.py
 
-# To run the tkinter application
+# Runs the tkinter application
 python chat_room.py
 ```
