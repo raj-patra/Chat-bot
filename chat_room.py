@@ -77,7 +77,7 @@ class ChatBot(Frame):
             master_bot.config(bg='#2e2e2e', bd=10)
             master_bot.title("Bot Name")
             master_bot.resizable(0, 0)
-            master_bot.iconbitmap('icon (1).ico')
+            master_bot.iconbitmap('icon.ico')
 
             label = Label(master_bot, text='Enter Preferred Bot Name', font=('Papyrus', 12, 'bold'),
                           bg='#1f1f1f', fg='#f0f0f0', height=2)
@@ -103,7 +103,7 @@ class ChatBot(Frame):
             master_user.config(bg='#2e2e2e', bd=10)
             master_user.title("User Name")
             master_user.resizable(0, 0)
-            master_user.iconbitmap('icon (1).ico')
+            master_user.iconbitmap('icon.ico')
 
             label = Label(master_user, text='Enter Your Name', font=('Papyrus', 12, 'bold'),
                           bg='#1f1f1f', fg='#f0f0f0', height=2)
@@ -273,7 +273,7 @@ if __name__ == '__main__':
 
     ob = ChatBot(root, relief=GROOVE, bg='#0990E8')
     ob.pack(side=TOP, fill=BOTH, expand=True)
-    root.iconbitmap('icon (1).ico')
+    root.iconbitmap('icon.ico')
     root.protocol("WM_DELETE_WINDOW", quit)
     root.mainloop()
 
