@@ -47,7 +47,6 @@ class ChatBot(Frame):
     def gui(self):
         # Calls the chat function which prepares the kernel and loads the Brain.
         self.chat()
-        start = time.clock()
 
         # Info box to let the user know about the chat room.
         def info(event=None):
@@ -150,7 +149,7 @@ class ChatBot(Frame):
                            'What are you waiting for ?',
                            'Good chat !', 'Okay, Ask me anything when you are free.', 'You there ?']
                 status_label.config(text='')
-                if excitation is '':
+                if excitation == '':
                     response = random.choice(replies)
                 else:
                     response = kernel.respond(excitation)
